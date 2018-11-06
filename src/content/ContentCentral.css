@@ -1,0 +1,18 @@
+.slick-active div .itemCentral  {
+    background:url(./img/next.png) center bottom/100% no-repeat, url(./img/ContentCentralBackground.png) no-repeat !important;
+}
+
+.itemCentral {
+    background: url(./img/ContentCentralBackground.png);
+    background-size: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.itemCentral h1 {
+    font-size: 50px;
+    font-weight: normal;
+}

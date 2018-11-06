@@ -1,0 +1,57 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  background: #7ea2d8;
+}
+
+.slider {
+  max-height: 768px;
+  max-width: 1024px;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.slick-dots {
+  width: 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  bottom: 50% !important;
+  left: 95%;
+}
+
+.slick-dots li {
+  margin-bottom:5px !important;
+}
+
+.slick-active .dots {
+  background: #f78b1f !important;
+}
+
+.dots {
+  border-radius: 50%;
+  background: #fff !important;
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.slick-vertical .slick-slide {
+  border: none !important;
+}
+
+.buttonNext {
+  position: relative;
+  top: 721px;
+  left: 25px;
+  border: 0px;
+  background: none;
+  height: 40px;
+  margin-bottom: -40px;
+  width: 45px;
+  z-index: 10;
+  flex-wrap: nowrap;
+  outline: 0;
+}
